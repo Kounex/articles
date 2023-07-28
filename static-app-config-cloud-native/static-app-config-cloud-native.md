@@ -1,4 +1,4 @@
-# How to handle configurations for Single Page Applications in a cloud-native environment
+# How to handle configurations for Static Applications in a cloud-native environment
 
 Applications / services need the ability to be configured without changing the source code. This is nothing new and is being used in a lot of occasions, especially because a lot of languages / frameworks offer such a feature out of the box. In cloud-native environments, this becomes even easier and more straight forward with for example frameworks like Quarkus, NestJS, Flask and so on. Doing that for static files which have already been compiled (often [Single Page Applications](https://developer.mozilla.org/en-US/docs/Glossary/SPA)) and are being served by a web server, for example [Angular](https://angular.io/) or [Flutter](https://flutter.dev/) being served by something like [NGINX](https://www.nginx.com/), has to be tackled differently though but is still something you want to be able to do.
 
